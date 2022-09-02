@@ -1,0 +1,11 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jiayi1992/ts-learn.git",
+  "author": "Jiayi Xin <jiayi920429@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  // Add "c.ts" will get file not found erro
+  // Remove "b.ts" will just compile "a.ts" to "a.js"
+  "files": ["a.ts", "b.ts"]
+}
