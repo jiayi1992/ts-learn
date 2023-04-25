@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // Remove it will cause import error in the `a.ts` file
+
+    // Note that this feature does not change how import paths are emitted by tsc,
+    // so paths should only be used to inform TypeScript that another tool has this
+    // mapping and will use it at runtime or when bundling.
+    "baseUrl": "."
+  }
+}

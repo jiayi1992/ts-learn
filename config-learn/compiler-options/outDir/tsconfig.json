@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    // Compile result will be in `dist` folder
+    "outDir": "dist"
+  }
+}
