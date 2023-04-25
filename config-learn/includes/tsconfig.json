@@ -1,3 +1,4 @@
 {
+  // Remove "test/**/*" will only compile files in src/
   "include": ["src/**/*", "test/**/*"]
 }
