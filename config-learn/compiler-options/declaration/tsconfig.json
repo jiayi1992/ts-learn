@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // Generate .d.ts files for every TypeScript or JavaScript file inside your project.
+    "declaration": true,
+    "outDir": "dist"
+  }
+}
