@@ -2,9 +2,15 @@
   "compilerOptions": {
     // Remove it will cause import error in the `a.ts` file
 
+    // Sets a base directory from which to resolve bare specifier module names. For example, in the directory structure:
+
     // Note that this feature does not change how import paths are emitted by tsc,
     // so paths should only be used to inform TypeScript that another tool has this
     // mapping and will use it at runtime or when bundling.
+
+    // Hover on the from in the import statement will show where is source from
+    // E.g. If change to "baseUrl": "../", "sub/b" will be resolved to "/Users/jiayi/Developer/ts-learn/config-learn/compiler-options/sub/b"
+    // instead of "/Users/jiayi/Developer/ts-learn/config-learn/compiler-options/baseUrl/sub/b"
     "baseUrl": "."
   }
 }

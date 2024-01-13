@@ -5,6 +5,11 @@
     // Note that this feature does not change how import paths are emitted by tsc,
     // so paths should only be used to inform TypeScript that another tool has this
     // mapping and will use it at runtime or when bundling.
+
+    // A series of entries which re-map imports to lookup locations relative to the baseUrl if set, or to the tsconfig file itself otherwise.
+    //  There is a larger coverage of paths in the moduleResolution reference page.
+
+    // Hover on the from in the import statement will show where is source from
     "paths": {
       "app/*": ["./src/app/*"]
     }
